@@ -1,0 +1,22 @@
+img {
+  max-width: 100%;
+}
+
+.thumbnail {
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumbnail.selected {
+  border-color: blue;
+}
+
+.filmstrip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filmstrip button {
+  margin: 0 10px;
+}
